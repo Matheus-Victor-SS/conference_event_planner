@@ -1,6 +1,6 @@
 # Conference Event Planner 🎯
 
-Um aplicativo web moderno para planejar e calcular despesas de conferências e eventos. Permite selecionar locais, complementos (áudio/vídeo) e refeições, com cálculo automático do custo total.
+Um aplicativo web moderno para planejar e calcular despesas de conferências e eventos. Permite selecionar locais, complementos (áudio/vídeo) e refeições, com cálculo automático do custo total. A aplicação foi feita com o auxilio do curso de Desenvolvimento Full-Stack da IBM.
 
 ## 📋 Funcionalidades
 
