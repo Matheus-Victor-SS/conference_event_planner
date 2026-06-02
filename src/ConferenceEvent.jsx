@@ -290,6 +290,13 @@ const mealsTotalCost = calculateTotalCost("meals");
     ))}
 </div>
 <div className="total_cost">Custo Total: {mealsTotalCost}</div>
+                                <button 
+                                    className="details_button" 
+                                    onClick={() => setShowItems(true)}
+                                    style={{ marginTop: '20px', width: '60%', padding: '12px' }}
+                                >
+                                    Ver Total Final
+                                </button>
 
                             </div>
                         </div>
