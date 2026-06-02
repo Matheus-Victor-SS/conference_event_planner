@@ -269,13 +269,11 @@ const mealsTotalCost = calculateTotalCost("meals");
                                 </div>
 
                                 <div className="input-container venue_selection">
-                                <div className="input-container venue_selection">
-    <label htmlFor="numberOfPeople"><h3>Número de Pessoas:</h3></label>
-    <input type="number" className="input_box5" id="numberOfPeople" value={numberOfPeople}
-        onChange={(e) => setNumberOfPeople(parseInt(e.target.value))}
-        min="1"
-    />
-</div>
+                                    <label htmlFor="numberOfPeople"><h3>Número de Pessoas:</h3></label>
+                                    <input type="number" className="input_box5" id="numberOfPeople" value={numberOfPeople}
+                                        onChange={(e) => setNumberOfPeople(parseInt(e.target.value))}
+                                        min="1"
+                                    />
                                 </div>
                                 <div className="meal_selection">
     {mealsItems.map((item, index) => (
@@ -297,8 +295,8 @@ const mealsTotalCost = calculateTotalCost("meals");
                         </div>
                     ) : (
                         <div className="total_amount_detail">
-    <TotalCost totalCosts={ totalCosts } ItemsDisplay={() => <ItemsDisplay items={ items } />} />
-</div>
+                            <TotalCost totalCosts={totalCosts} ItemsDisplay={() => <ItemsDisplay items={items} />} />
+                        </div>
                     )
                 }
 
